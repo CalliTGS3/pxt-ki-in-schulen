@@ -2,8 +2,7 @@
     "name": "pxt-neural-network-json",
     "description": "This extensions add blocks for neurol network computations.",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "nntest.ts",
