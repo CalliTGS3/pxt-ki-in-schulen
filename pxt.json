@@ -5,8 +5,8 @@
         "core": "*"
     },
     "files": [
-        "nntest.ts",
-        "nntest.cpp",
+        "nnpredict.ts",
+        "nnpredict.cpp",
         "platform/Utils.h",
         "platform/Utils.cpp",
         "common/logUtils.h",
