@@ -16,7 +16,7 @@ namespace nnpredict {
     //% weight=90 
     //% blockId=nntest_fcnnfromjson
     //% block="Json Brain|string %json"
-    //% shim=nntest::fcnnfromjson
+    //% shim=nnpredict::fcnnfromjson
     export function fcnnfromjson(json: string): void {
     	basic.showString("sim:json")
     }
@@ -24,7 +24,7 @@ namespace nnpredict {
     //% weight=50 
     //% blockId=nntest_predict
     //% block="Predict|number[] %input|number[] %output"
-    //% shim=nntest::predict
+    //% shim=nnpredict::predict
     export function predict(input: number[], output: number[]): void {
     	basic.showString("sim-predict")
     }
