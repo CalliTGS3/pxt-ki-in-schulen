@@ -91,22 +91,6 @@ void NN::print() const {
 }
 
 
-void set_weights(Mat* weights, float* data) {
-	for (int r=0; r<weights->getRows(); r++) {
-		for (int c=0; c<weights->getCols(); c++) {
-			weights->set(r, c, *data);
-			data++;
-		}
-	}
-}
-
-void set_biases(Vect* biases, float* data) {
-	for (int i=0; i<biases->getLength(); i++) {
-		biases->set(i, *data);
-		data++;
-	}
-}
-
 NN::~NN() {
 	for (int i=0; i<num_layers; i++) {
 		delete layers[i];
