@@ -26,10 +26,6 @@ public:
 
 	void print() const;
 
-	void init_car_race_net();
-	void init_car_race_netZERO();
-	void init_car_race_netTEST();
-
 	~NN();
 };
 
