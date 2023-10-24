@@ -167,18 +167,20 @@ float char2float(const char* text) {
 
 void throwError(const char *errMsg) {
 	while (true) {
-	    uBit.serial.send(errMsg);
+/*
+		uBit.serial.send(errMsg);
 		uBit.display.scroll(errMsg);
-        uBit.sleep(1000);
-        if ( uBit.buttonA.isPressed() == true ) {
-        	uBit.sleep(24*60*60*1000);
-        }
+        	uBit.sleep(1000);
+        	if ( uBit.buttonA.isPressed() == true ) {
+        		uBit.sleep(24*60*60*1000);
+        	}	
 	}
+*/	
 }
 
 void log(const char *msg) {
 //	uBit.display.scroll(msg);
-    uBit.serial.send(msg);
+//    uBit.serial.send(msg);
 }
 
 void logFloat(float f) {
