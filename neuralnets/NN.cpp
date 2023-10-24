@@ -81,6 +81,7 @@ Vect* NN::backwardPropagate(const Vect *expected_output, const Vect *last_output
 
 
 
+/*
 void NN::print() const {
 	char buf[32];
 	sprintf(buf, "NN(%d)\r\n", num_layers);
@@ -89,6 +90,7 @@ void NN::print() const {
 		layers[i]->print();
 	}
 }
+*/
 
 
 NN::~NN() {
