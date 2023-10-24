@@ -87,6 +87,7 @@ Vect* NNLayer::backwardPropagate(const Vect *e, float lr) {
 	return e_in;
 }
 
+/*
 void NNLayer::print() const {
 	char buf[64];
 	const char*act;
@@ -114,7 +115,7 @@ void NNLayer::print() const {
 	w->print();
 	b->print();
 }
-
+*/
 
 Mat* NNLayer::getWeights() const {
 	return w;
