@@ -174,8 +174,8 @@ void throwError(const char *errMsg) {
         	if ( uBit.buttonA.isPressed() == true ) {
         		uBit.sleep(24*60*60*1000);
         	}	
-	}
 */	
+	}
 }
 
 void log(const char *msg) {
