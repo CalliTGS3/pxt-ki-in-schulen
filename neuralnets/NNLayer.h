@@ -28,9 +28,9 @@ public:
 
 	int getNumInput() const;
 	int getNumOutput() const;
-
+/*
 	void print() const;
-
+*/
 	Mat* getWeights() const;
 	Vect* getBiases() const;
 
