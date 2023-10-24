@@ -72,7 +72,7 @@ Vect* NNLayer::forwardPropagate(const Vect *x) {
 
 Vect* NNLayer::backwardPropagate(const Vect *e, float lr) {
 	if (_z == 0) {
-		print();
+		//print();
 		throwError("calling backProp without haveing called forwardProp.");
 	}
 	Vect *e_zrp = new Vect(_z);
