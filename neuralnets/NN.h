@@ -24,8 +24,9 @@ public:
 	Vect* forwardPropagate(const Vect *input);
 	Vect* backwardPropagate(const Vect *expected_output, const Vect *last_output, float learning_rate);
 
+/*
 	void print() const;
-
+*/
 	~NN();
 };
 
