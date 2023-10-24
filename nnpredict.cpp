@@ -73,9 +73,11 @@ void fcnnfromjson(String json) {
 	parser.parse(jsonNN);
 	brain = (NN*) nnParser.getResult();
 
+/*
 	if (brain != 0) {
 		brain->print();
 	}
+*/	
 }
 
 //% blockId=nntest_predict
