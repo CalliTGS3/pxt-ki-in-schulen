@@ -1,6 +1,6 @@
 # KI Rennspiel für Calliope mini
 
-Dieses Projekt ist eine Erweiterung für von
+Dieses Projekt ist eine Erweiterung für
 
 [https://github.com/CalliTGS3/kirennspielgehirn](https://github.com/CalliTGS3/kirennspielgehirn) 
 
